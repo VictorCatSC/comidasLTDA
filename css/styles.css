@@ -1,33 +1,24 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
+  color:black;
+  background-color:#fff;
   font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav {
-  background-color: #f6b319;
+  background-color: lightgray;
   border: 0;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
-}
 
 .navbar-brand h1 {
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  
+
   font-size: 1.5rem;
   /* 1.5 * 16px */
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+
   padding-top: 25px;
 }
 
@@ -148,68 +139,18 @@ body {
   }
 }
 
-.conteiner-fluid{
-  padding: 0;
-}
-#mainSlider .carousel-inner,#mainSlider .carousel-item{
-  margin-top: 2%;
-  margin-bottom: 1%;
-}
+
+
 
 /*
-
 ====================
 --------MENU--------
 -===================
 
 */
-#menu-area{
-  margin-top: 5%;
-}
-
-.container{
-  margin-top: 5%;
-
-}
-
-.container:last-child{
-  margin-bottom: 10%;
-
-}
-
-.menu-title{
-  margin: 0 0 5% 0;
-  font-size: 50px;
-  text-align: center;
-}
-
-.img-fluid{
-  margin-top: 3%;
-
-  border-radius: 2%;
-}
-
-.menu-title::after{
-  content: "";
-  border-top: 2px solid #350013;
-  width: 15%;
-  position: absolute;
-  top: 60px;
-  left: 42.5%;
-}
-
-.menu-subtitle{
-  font-size: 25px;
-}
-
-/*
-====================
---------SOBRE--------
--===================
-
-*/
 #sobre-area{
   margin-top: 5%;
+  margin-bottom: 200px;
 }
 
 
@@ -233,39 +174,8 @@ body {
   font-size: 25px;
 }
 
-/*
-====================
---------premios--------
--===================
-
-*/
-#premios-area{
-  margin-top: 5%;
-}
-
-
-.premios-title{
-  margin: 0 0 0 0;
-  font-size: 50px;
-  text-align: center;
-}
-
-
-.premios-title::after{
-  content: "";
-  border-top: 2px solid #350013;
-  width: 15%;
-  position: absolute;
-  top: 60px;
-  left: 42.5%;
-}
-
-.premios-subtitle{
-  font-size: 25px;
-  text-align: center;
-  margin-top: 10%;
-}
-
-.container-premios p{
-  text-align: center;
+section{
+  background-color: lightgray;
+  margin:1%;
+  padding: 10%;
 }
